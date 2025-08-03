@@ -185,8 +185,8 @@ function createComponents(app)
 
     
     app.UIFigure=uifigure('Visible', 'off');
-    app.UIFigure.Position=[10, 50, 1200, 790];
-    app.UIFigure.Name='TYPING SPEED MASTER';
+    app.UIFigure.Position=[10, 5, 1200, 790];
+    app.UIFigure.Name='TYPING SPEED TEST';
     app.UIFigure.Color='#373737'; 
 
     app.lblChooseTest=uilabel(app.UIFigure);
@@ -264,4 +264,5 @@ function createComponents(app)
     grid(app.UIAxes,'on');
 
     app.UIFigure.Visible='on';  
+
 end
